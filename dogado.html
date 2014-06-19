@@ -1,25 +1,359 @@
-<!DOCTYPE html>
 <html>
+<head></head>
 <body>
-
-<table style="width:300px">
-<tr>
-  <td>Jill</td>
-  <td>Smith</td>		
-  <td>50</td>
-</tr>
-<tr>
-  <td>Eve</td>
-  <td>Jackson</td>		
-  <td>94</td>
-</tr>
-<tr>
-  <td>John</td>
-  <td>Doe</td>		
-  <td>80</td>
-</tr>
+<table border='1'>
+    <caption>= Websolute =</caption>
+    <tr>
+        <th>Count</th>
+        <th>Emails</th>
+        <th>Action</th>
+        <th>Error code</th>
+        <th>Error message</th>
+        <th>Date</th>
+        <th>Response</th>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>conquistadores3@iammagis.com</td>
+        <td width='200px' align='center'>getcurrentactions</td>
+        <td width='50px' align='center'>99</td>
+        <td width='1000px' align='center'>Timeout waiting for value</td>
+        <td width='150px' align='center'>05.06.2014 20:02:24</td>
+        <td width='1000px' align='center'>
+            {"appid":"1dd8d191d38fff45e62564fcf67fdcd6","session":"eddx1dab614f3a62c0578d63182dd75a7acc","charset":"UTF-8","hx_lang":"en","ruk":"ddf35a5b-6b1c-448d-9d26-tab534098","debug
+            ":{"startTime":1401998542094,"duration":2595,"headers":{"keep-alive":"timeout=10,
+            max=196","connection":"Keep-Alive","access-control-allow-origin":"*","content-type":"text/plain;
+            charset=utf-8","content-language":"es","transfer-encoding":"chunked","server":"nginx","date":"Thu, 05 Jun
+            2014 20:02:24 GMT"},"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+            Ubuntu Chromium/32.0.1700.107 Chrome/32.0.1700.107
+            Safari/537.36","method":"GET","retriesCount":0,"requestId":13,"httpStatus":200,"statusText":"OK","responseText":"{\"result\":99,\"source\":\"JEL\",\"error\":\"Timeout
+            waiting for value\"}","aborted":false,"timedout":false}}
+        </td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>enisonoliveira@outlook.com</td>
+        <td width='200px' align='center'>cloneenv</td>
+        <td width='50px' align='center'>19</td>
+        <td width='1000px' align='center'>Read timed out</td>
+        <td width='150px' align='center'>04.06.2014 0:52:04</td>
+        <td width='1000px' align='center'>
+            {"appid":"8bbcdbe336bf46994d990e856315af13","session":"d52x9c6d97b13822e6d8250ad0a645a251dc","domain":"env-7163543-clone106532","actionkey":"
+            cloneenv;8bbcdbe336bf46994d990e856315af13;env-7163543-clone106532","charset":"UTF-8","hx_lang":"pt","ruk":"041793d7-7e12-47ee-8c1f-tab663807","debug":{"startTime":1401839424572,"duration":361492,"headers":{"keep-alive":"timeout=10,
+            max=200","connection":"Keep-Alive","access-control-allow-origin":"*","content-type":"text/plain;
+            charset=utf-8","content-language":"pt-BR","transfer-encoding":"chunked","server":"nginx","date":"Wed, 04 Jun
+            2014 00:52:04 GMT"},"userAgent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko)
+            Chrome/34.0.1847.131
+            Safari/537.36","method":"GET","retriesCount":0,"requestId":19,"httpStatus":200,"statusText":"OK","responseText":"{\"result\":19,\"source\":\"JEL\",\"error\":\"Read
+            timed out\"}","aborted":false,"timedout":false}}
+        </td>
+    </tr>
 </table>
-
+<br>
+<table border='1'>
+    <caption>Emails</caption>
+    <tr>
+        <th>N</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td width='50px'>1</td>
+        <td>conquistadores3@iammagis.com</td>
+    </tr>
+    <tr>
+        <td width='50px'>2</td>
+        <td>enisonoliveira@outlook.com</td>
+    </tr>
+</table>
+<br>Active users: 33<br>Affected users: 2<br>Percent: 6,06%<br>
+<table border='1'>
+    <caption>= DNR =</caption>
+    <tr>
+        <th>Count</th>
+        <th>Emails</th>
+        <th>Action</th>
+        <th>Error code</th>
+        <th>Error message</th>
+        <th>Date</th>
+        <th>Response</th>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>jandosov@gmail.com</td>
+        <td width='200px' align='center'>write</td>
+        <td width='50px' align='center'>4099</td>
+        <td width='1000px' align='center'>Container return error message: sh:
+            /var/www/webroot/ROOT/92.46.62.194/new921/sites/default/settings.php: Permission denied
+        </td>
+        <td width='150px' align='center'>04.06.2014 10:07:59</td>
+        <td width='1000px' align='center'>
+            {"appid":"b4e3d2cfb0855e8411f8cdf933d0cdd6","nodeType":"nginxphp","nodeid":-1,"path":"/var/www/webroot/ROOT/92.46.
+            62.194/new921/sites/default/settings.php","body":"&lt;?php\n\n/**\n
+            * @file\n * Drupal site-specific configuration file.\n *\n * IMPORTANT NOTE:\n * This file may have been set
+            to read-only by the Drupal installation\n * program. If you make changes to this file, be sure to protect it
+            again\n * after making your modifications. Failure to remove write permissions\n * to this file is a
+            security risk.\n *\n * The configuration file to be loaded is based upon the rules below.\n *\n * The
+            configuration directory will be discovered by stripping the\n * website's hostname from left to right and
+            pathname from right to\n * left. The first configuration file found will be used and any\n * others will be
+            ignored. If no other configuration file is found\n * then the default configuration file at 'sites/default'
+            will be used.\n *\n * For example, for a fictitious site installed at\n *
+            http://www.drupal.org/mysite/test/, the 'settings.php'\n * is searched in the following directories:\n *\n *
+            - sites/www.drupal.org.mysite.test\n * - sites/drupal.org.mysite.test\n * - sites/org.mysite.test\n *\n * -
+            sites/www.drupal.org.mysite\n * - sites/drupal.org.mysite\n * - sites/org.mysite\n *\n * -
+            sites/www.drupal.org\n * - sites/drupal.org\n * - sites/org\n *\n * - sites/default\n *\n * If you are
+            installing on a non-standard port number, prefix the\n * hostname with that number. For example,\n *
+            http://www.drupal.org:8080/mysite/test/ could be loaded from\n * sites/8080.www.drupal.org.mysite.test/.\n
+            */\n\n/**\n * Database settings:\n *\n * The $databases array specifies the database connection or\n *
+            connections that Drupal may use. Drupal is able to connect\n * to multiple databases, including multiple
+            types of databases,\n * during the same request.\n *\n * Each database connection is specified as an array
+            of settings,\n * similar to the following:\n * @code\n * array(\n * 'driver' =&gt; 'mysql',\n * 'database' =&gt;
+            'databasename',\n * 'username' =&gt; 'username',\n * 'password' =&gt; 'password',\n * 'host' =&gt;
+            'localhost',\n * 'port' =&gt; 3306,\n * 'prefix' =&gt; 'myprefix_',\n * 'collation' =&gt;
+            'utf8_general_ci',\n * );\n * @endcode\n *\n * The \"driver\" property indicates what Drupal database driver
+            the\n * connection should use. This is usually the same as the name of the\n * database type, such as mysql
+            or sqlite, but not always. The other\n * properties will vary depending on the driver. For SQLite, you
+            must\n * specify a database file name in a directory that is writable by the\n * webserver. For most other
+            drivers, you must specify a\n * username, password, host, and database name.\n *\n * Some database engines
+            support transactions. In order to enable\n * transaction support for a given database, set the
+            'transactions' key\n * to TRUE. To disable it, set it to FALSE. Note that the default value\n * varies by
+            driver. For MySQL, the default is FALSE since MyISAM tables\n * do not support transactions.\n *\n * For
+            each database, you may optionally specify multiple \"target\" databases.\n * A target database allows Drupal
+            to try to send certain queries to a\n * different database if it can but fall back to the default connection
+            if not.\n * That is useful for master/slave replication, as Drupal may try to connect\n * to a slave server
+            when appropriate and if one is not available will simply\n * fall back to the single master server.\n *\n *
+            The general format for the $databases array is as follows:\n * @code\n * $databases['default']['default'] =
+            $info_array;\n * $databases['default']['slave'][] = $info_array;\n * $databases['default']['slave'][] =
+            $info_array;\n * $databases['extra']['default'] = $info_array;\n * @endcode\n *\n * In the above example,
+            $info_array is an array of settings described above.\n * The first line sets a \"default\" database that has
+            one master database\n * (the second level default). The second...
+        </td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>ukosotnikov@mail.ru</td>
+        <td width='200px' align='center'>restart/restartcontainer</td>
+        <td width='50px' align='center'>99</td>
+        <td width='1000px' align='center'>javax.xml.ws.soap.SOAPFaultException: VZAgent responded with error</td>
+        <td width='150px' align='center'>05.06.2014 10:23:50</td>
+        <td width='100px' align='center'>
+            {"appid":"f92121ce8b6edd461a7b43e7afd6d1ce","session":"187x059612f7927356281f541490f68cfdd5","nodeType":"centos5","nodeid":3323,"actionkey":"restart;f92121ce8b6edd461a7b43e7afd6d1ce;centos5","charset":"UTF-8","hx_lang":"ru","ruk":"38aec691-912e-4e07-8d3e-tab365150","debug":{"startTime":1401963808168,"duration":16456,"headers":{"transfer-encoding":"chunked","connection":"Keep-Alive","keep-alive":"timeout=10,
+            max=197","content-type":"text/plain;
+            charset=utf-8","content-language":"ru-RU","access-control-allow-origin":"*","server":"nginx","date":"Thu, 05
+            Jun 2014 10:23:50 GMT"},"userAgent":"Mozilla/5.0 (Windows NT 6.1; rv:29.0) Gecko/20100101
+            Firefox/29.0","method":"GET","retriesCount":0,"requestId":16,"httpStatus":200,"statusText":"OK","responseText":"{\"result\":99,\"source\":\"JEL\",\"error\":\"javax.xml.ws.soap.SOAPFaultException:
+            VZAgent responded with error\"}","aborted":false,"timedout":false}}
+        </td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>smozjo@gmail.com</td>
+        <td width='200px' align='center'>readlog/write</td>
+        <td width='50px' align='center'>705</td>
+        <td width='1000px' align='center'>user [959] don't have any access rights to app
+            [61ca6691d22950260639bc4cb70d0b35]
+        </td>
+        <td width='150px' align='center'>05.06.2014 13:11:10</td>
+        <td width='1000px' align='center'>
+            {"appid":"61ca6691d22950260639bc4cb70d0b35","session":"3bfxe2e106ffdc243755a16963d3194eb6fd","nodeid":9472,"path":"/var/log/httpd/dummy-host.jelastic.com-error_log","count":250,"charset":"UTF-8","hx_lang":"ru","ruk":"182ead9c-3436-4c7a-a6df-tab970523","debug":{"startTime":1401973735124,"duration":110,"headers":{"keep-alive":"timeout=10,
+            max=200","connection":"Keep-Alive","access-control-allow-origin":"*","content-type":"text/plain;
+            charset=utf-8","content-language":"ru-RU","transfer-encoding":"chunked","server":"nginx","date":"Thu, 05 Jun
+            2014 13:11:10 GMT"},"userAgent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko)
+            Chrome/33.0.1750.117 Safari/537.36
+            SUSE/33.0.1750.117","method":"GET","retriesCount":0,"requestId":166,"httpStatus":200,"statusText":"OK","responseText":"{\"result\":705,\"source\":\"JEL\",\"error\":\"user
+            [959] don't have any access rights to app
+            [61ca6691d22950260639bc4cb70d0b35]\"}","aborted":false,"timedout":false}}
+        </td>
+    </tr>
+</table>
+<br>
+<table border='1'>
+    <caption>Emails</caption>
+    <tr>
+        <th>N</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td width='50px'>1</td>
+        <td>jandosov@gmail.com</td>
+    </tr>
+    <tr>
+        <td width='50px'>2</td>
+        <td>ukosotnikov@mail.ru</td>
+    </tr>
+    <tr>
+        <td width='50px'>3</td>
+        <td>smozjo@gmail.com</td>
+    </tr>
+</table>
+<br>Active users: 113<br>Affected users: 3<br>Percent: 2,65%<br><br><br><br>RESULT:<br>Count of all active users:
+146<br>---------------------------<br>Count of all affected users: 5<br>---------------------------<br>TOTAL: 3,42 %<br>
+<table border='1'>
+    <caption>= Result table =</caption>
+    <tr>
+        <th>Count</th>
+        <th>Unic email</th>
+        <th>Action</th>
+        <th>Error code</th>
+        <th>Error message</th>
+        <th>Date</th>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>4</td>
+        <td width='200px' align='center'>gderepas@staff.fasthit.net.au online@excelpublishing.co.uk kuly@layershift.com
+            andrew@layershift.com
+        </td>
+        <td width='200px' align='center'>getenvinfo/getstats/startenv</td>
+        <td width='50px' align='center'>705</td>
+        <td width='1000px' align='center'>user [2552] don't have any access rights to app
+            [45a3f6ff0287eae0dcee3b19de384c54]
+        </td>
+        <td width='150px' align='center'>30.05.2014 9:33:59</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>3</td>
+        <td width='200px' align='center'>jeetukr.91@gmail.com dev@brightmachine.co.uk jonas.lincoln@di.se</td>
+        <td width='200px' align='center'>checkuser</td>
+        <td width='50px' align='center'>99</td>
+        <td width='1000px' align='center'>Duplicate entry '1972-wizard-mode' for key 'PRIMARY'</td>
+        <td width='150px' align='center'>03.06.2014 8:10:24</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>2</td>
+        <td width='200px' align='center'>tom@poncho8.com robert@shiply.com</td>
+        <td width='200px' align='center'>getproject/write</td>
+        <td width='50px' align='center'>4099</td>
+        <td width='1000px' align='center'>Container return error message: cat: /var/run/jem.pid: No such file or
+            directory
+        </td>
+        <td width='150px' align='center'>03.06.2014 14:21:53</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>2</td>
+        <td width='200px' align='center'>paulisman@centrum.sk billyone4ever@gmail.com</td>
+        <td width='200px' align='center'>deploy/deployapp</td>
+        <td width='50px' align='center'>4060</td>
+        <td width='1000px' align='center'>Deploy failed
+            remote failure Error occurred during deployment Exception while deploying the app [depad] WEB9032 Class
+            cz.muni.fi.gate.svg.GateSvgBean has unsupported major or minor version numbers, which are greater than those
+            found in the Java Runtime Environment version 1.6.0_45. Please see server.log for more details. Command
+            deploy failed. Cannot unpack package
+        </td>
+        <td width='150px' align='center'>02.06.2014 19:11:46</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>info@skystars-electronic.com</td>
+        <td width='200px' align='center'>startenv</td>
+        <td width='50px' align='center'>99</td>
+        <td width='1000px' align='center'>javax.xml.ws.soap.SOAPFaultException: VZAgent responded with error</td>
+        <td width='150px' align='center'>31.05.2014 22:11:13</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>thiago.b@hostdime.com.br</td>
+        <td width='200px' align='center'>getvalidpaytypes</td>
+        <td width='50px' align='center'>2207</td>
+        <td width='1000px' align='center'>error with communicate with CEBI remote host</td>
+        <td width='150px' align='center'>03.06.2014 21:36:51</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>pragatigaikwad0711@gmail.com</td>
+        <td width='200px' align='center'>deletearchive</td>
+        <td width='50px' align='center'>10002</td>
+        <td width='1000px' align='center'>archive not found</td>
+        <td width='150px' align='center'>04.06.2014 16:33:43</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>ral876@hotmail.com</td>
+        <td width='200px' align='center'>urlupload</td>
+        <td width='50px' align='center'>10002</td>
+        <td width='1000px' align='center'>incorrect file</td>
+        <td width='150px' align='center'>03.06.2014 11:09:26</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>maksimshashurin@gmail.com</td>
+        <td width='200px' align='center'>uploadfiles</td>
+        <td width='50px' align='center'>1702</td>
+        <td width='1000px' align='center'>script = UploadFiles not found</td>
+        <td width='150px' align='center'>01.06.2014 22:20:01</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>thiago.b@hostdime.com.br</td>
+        <td width='200px' align='center'>getpaymethodlist</td>
+        <td width='50px' align='center'>2207</td>
+        <td width='1000px' align='center'>com.hivext.api.server.billing.extern.cebi.exception.CebiGatewayException:
+            error with communicate with CEBI remote host
+        </td>
+        <td width='150px' align='center'>03.06.2014 21:36:51</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>ahwan.monu@gmail.com</td>
+        <td width='200px' align='center'>confirmlinkrequest</td>
+        <td width='50px' align='center'>3</td>
+        <td width='1000px' align='center'>authorization key is not valid</td>
+        <td width='150px' align='center'>03.06.2014 4:19:19</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>sandro_erick20@yahoo.com.br</td>
+        <td width='200px' align='center'>registerpaymethodandpay</td>
+        <td width='50px' align='center'>2207</td>
+        <td width='1000px' align='center'>CebiException: invalid pay method registration URL</td>
+        <td width='150px' align='center'>05.06.2014 17:27:22</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>Admin@isvenmediacion.com</td>
+        <td width='200px' align='center'>removeextdomain</td>
+        <td width='50px' align='center'>2322</td>
+        <td width='1000px' align='center'>domain [www.cursos.innovafor.com] not found.</td>
+        <td width='150px' align='center'>02.06.2014 15:53:36</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>abj@sshtrial.eu</td>
+        <td width='200px' align='center'>createenv->addNode(centos6)/createenvironment->addNode(centos6)</td>
+        <td width='50px' align='center'>99</td>
+        <td width='1000px' align='center'>Could not execute JDBC batch update; SQL [insert into
+            file_permissions_file_filter (file_permissions_id, filters_id) values (?, ?)]; constraint [null]; nested
+            exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update
+        </td>
+        <td width='150px' align='center'>01.06.2014 16:17:49</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>unknown email</td>
+        <td width='200px' align='center'>recoverpassword</td>
+        <td width='50px' align='center'>601</td>
+        <td width='1000px' align='center'>javax.mail.SendFailedException: Invalid Addresses;
+            nested exception is:
+            com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1
+            <cabe
+            @domino.nazuka.net>: Recipient address rejected: Access denied
+        </td>
+        <td width='150px' align='center'>03.06.2014 4:53:27</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>max.charas@bonniernews.se</td>
+        <td width='200px' align='center'>confirmlinkrequest</td>
+        <td width='50px' align='center'>710</td>
+        <td width='1000px' align='center'>Users already linked</td>
+        <td width='150px' align='center'>03.06.2014 7:23:30</td>
+    </tr>
+    <tr>
+        <td width='50px' align='center'>1</td>
+        <td width='200px' align='center'>reallancezenislev@gmail.com</td>
+        <td width='200px' align='center'>urlupload</td>
+        <td width='50px' align='center'>10001</td>
+        <td width='1000px' align='center'>file not found</td>
+        <td width='150px' align='center'>04.06.2014 23:51:06</td>
+    </tr>
+</table>
 </body>
 </html>
-     
